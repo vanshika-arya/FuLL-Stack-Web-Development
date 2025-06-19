@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+     /* #parent{
+        background-color: aqua;
+        height: 600px;
+        width: 300px;
+        border: 2px solid;
+    } */
+    /* #child{
+        background-color: darkgreen;
+        height: 50px;
+        width: 50px;
+    }  */
+      #child{
+        background-color: rgb(7, 40, 7);
+        height: 50%;
+        width: 50%;
+      }
+      #parent{
+        background-color: aqua;
+        height: 50vh; /* this take height relative to the screen size */
+        width: 50vw;  /* this take width relative to the screen size */
+        border: 2px solid;
+    }
+    li{
+        
+        font-size: 2em; /*rem takes font relative to the root element size i.e. current size of the text */
+    }
+    li{
+        font-size: 2em; /*this takes size relative to their parent element */
+        
+    }
+     
+</style>
+<body>
+    <div id="parent">
+        <div id="child"></div>
+    </div>
+    <ul>
+        <li>1
+            <ul>
+                <li>1.1
+                    <ul>
+                        <li>1.11</li>
+                    </ul>
+                </li>
+                <li>1.2</li>
+            </ul>
+        </li>
+        <li>2.3</li>
+    </ul>
+    
+</body>
+</html>
