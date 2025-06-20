@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+  #parent{
+    background-color: rgb(8, 8, 35);
+    height:50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+  }
+  .one h3{
+    color: rgb(218, 94, 32);
+    margin-left: 20px;
+  }
+  #menu a{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    color: rgba(240, 248, 255, 0.916);
+  }
+  #menu {
+    gap: 20px;
+    display: flex;
+  }
+  #menu a:hover{
+    text-decoration: underline;
+  }
+  #six{
+    height: 20px;
+    background-color: red;
+    padding: 5px 20px;
+    font-size: 15px;
+    margin-right: 20px;
+  }
+  #six:hover{
+    background-color: darkred;
+  }
+</style>
+<body>
+    <div id="parent">
+        <div class="one"><h3>Coding Thinker</h3></div>
+        <div id="menu">
+            <a href="">learn</a>
+            <a href="">Get Hired</a>
+            <a href="">Practice</a>
+            <a href="">IDE</a>
+        </div>
+        <div id="six">Login</div>
+    </div>
+</body>
+</html>
