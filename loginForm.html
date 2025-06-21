@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<style>
+    body{
+        background-color: rgb(30, 30, 63);
+    }
+    #parent{
+     display: flex;
+    justify-content: center; 
+    align-items: center;
+    }
+ #item{
+     height: 400px;
+    width: 300px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    } 
+    p{
+        margin-left: 10px;
+    } 
+    input{
+        margin-top: 0px;
+        margin-left: 10px;
+    } 
+    h2{
+        margin-left: 80px;
+    }
+    #fp{
+        font-size: 12px;
+        color: blue;
+    }
+    button{
+        background-color: blue;
+        width: 200px;
+        height: 50px;
+        color: white;
+        font-size: 20px;
+        border: none;
+        margin-left: 40px;
+    }
+    #sign{
+       color: blue;
+    }
+
+</style>
+<body>
+    <div id="parent">
+        <div id="item">
+           <h2 id="login">Login Form</h2>
+           <p>Email or Phone</p>
+           <input type="text"/>
+           <p>Passward</p>
+           <input type="password"/>
+           <p id="fp">Forgot Passward?</p>
+           <Button type="button">LOGIN</Button>
+           <br/>
+           <br/>
+           <span id="m">Not a member?</span>
+           <span id="Sign">Signup now</span>
+         </div>
+    </div>
+</body>
+</html>
