@@ -41,9 +41,9 @@ This repository contains everything I’m learning and building — starting fro
 
 Feel free to connect if you’re also learning or have suggestions:
 
-- GitHub: [your-username](https://github.com/your-username)
-- LinkedIn: [Your Name](https://www.linkedin.com/in/your-link/)
-- Email: your.email@example.com
+- GitHub: [your-username](https://github.com/vanshika-arya)
+- LinkedIn: [Your Name](https://www.linkedin.com/in/vanshika-arya-3719772ba)
+- Email: vanshika3915@gmail.com
 
 ---
 
