@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //  let arr=[1,2,3,4,5]
+        //  //for-in loop
+        // for(let i in arr){
+        //     console.log(i)
+        // }
+        // //for of loop
+        //  for(let i of arr){
+        //    console.log(i)
+        // }
+        //forEach function always returns undefined
+    //   arr.forEach(function(a,b,c){
+    //    console.log(a)
+    //     console.log(b)
+    //     //   console.log(c)
+    //   })
+       //map function....creates a new array and make changes in it
+    //    arr.map(function(a,b,c){
+    //     console.log(a)
+    //      console.log(b)
+    //    })
+       //filter function
+       let arr1=[1,2,3,4,5,64,3,5,2,5,2,34]
+       let data=arr1.filter(function(a,b,c){
+        return a>2
+       })
+       let even=data.filter(function(a,b,c){
+        return a%2==0
+       })
+       //reduce function
+       let sum=arr1.reduce((a,b,c,d)=>{
+        return a+b
+       })
+       console.log(sum)
+
+    //    //find function
+    //    let arr2=[1,2,3,4,5,6,7,6]
+    //    let value=arr2.find((a,b,c)=>{
+    //     return a==6
+    //    })
+    //    console.log(value)
+        
+    </script>
+</body>
+</html>
