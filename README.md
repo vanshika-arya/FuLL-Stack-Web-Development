@@ -11,7 +11,7 @@ This repository contains everything I’m learning and building — starting fro
 
 - 📁 `HTML/` – All basic to advanced HTML concepts with practice files and mini-projects
 - 📁 `CSS/` – Ongoing learning of styling, layout, and responsiveness
-- ⏳ `JavaScript/`, `React/`, `Backend/` – Coming soon!
+- ⏳  `Backend/` – Coming soon!
 
 ---
 
